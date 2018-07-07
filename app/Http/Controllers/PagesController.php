@@ -13,4 +13,10 @@ class PagesController extends Controller
 	public function welcome(){
 		return view('welcome');
 	}
+	public function services(){
+		return view('services');
+	}
+	public function tipe(){
+		return view('tipe');
+	}
 }
